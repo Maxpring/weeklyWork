@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LeetcodeEditor">
+    <option name="projectConfig">
+      <map>
+        <entry key="$PROJECT_DIR$/.idea/week1/leetcode/editor/cn/ P1_TwoSum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/.idea/week1/leetcode/editor/cn/ P1_TwoSum.java" />
+              <option name="questionId" value="1" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/week1/src/main/java/leetcode/editor/cn/ P1_TwoSum.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week1/src/main/java/leetcode/editor/cn/ P1_TwoSum.java" />
+              <option name="questionId" value="1" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/week1/src/main/java/leetcode/editor/cn/ P21_MergeTwoSortedLists.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week1/src/main/java/leetcode/editor/cn/ P21_MergeTwoSortedLists.java" />
+              <option name="questionId" value="21" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/week1/src/main/java/leetcode/editor/cn/ P283_MoveZeroes.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week1/src/main/java/leetcode/editor/cn/ P283_MoveZeroes.java" />
+              <option name="questionId" value="283" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/week1/src/main/java/leetcode/editor/cn/ P284_PeekingIterator.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week1/src/main/java/leetcode/editor/cn/ P284_PeekingIterator.java" />
+              <option name="questionId" value="284" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/week1/src/main/java/leetcode/editor/cn/ P88_MergeSortedArray.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week1/src/main/java/leetcode/editor/cn/ P88_MergeSortedArray.java" />
+              <option name="questionId" value="88" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/week1/src/main/java/leetcode/editor/cn/ P89_GrayCode.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week1/src/main/java/leetcode/editor/cn/ P89_GrayCode.java" />
+              <option name="questionId" value="89" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
