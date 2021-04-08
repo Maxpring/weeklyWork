@@ -38,8 +38,12 @@
 package leetcode.editor.cn;
 
 import structure.Node;
+import structure.TreeNode;
 
+import java.util.ArrayDeque;
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Queue;
 
 //Java：N 叉树的层序遍历
 public class P429NAryTreeLevelOrderTraversal{
@@ -69,7 +73,20 @@ class Node {
 
 class Solution {
     public List<List<Integer>> levelOrder(Node root) {
-        
+        List<List<Integer>> list = new ArrayList<>();
+        Queue<Node> deque = new ArrayDeque<>();
+        if (root != null) deque.add(root);
+        while (!deque.isEmpty()) {
+            int size = deque.size();
+            List<Integer> level = new ArrayList<>();
+            for (int i = 0; i < size; i++) {
+                Node node = deque.poll();
+                level.add(node.val);
+                deque.addAll(node.children);
+            }
+            list.add(level);
+        }
+        return list;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
