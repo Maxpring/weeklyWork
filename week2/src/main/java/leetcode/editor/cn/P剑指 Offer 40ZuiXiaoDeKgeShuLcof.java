@@ -38,6 +38,7 @@ class Offer40ZuiXiaoDeKgeShuLcof {
     class Solution {
 
         /**
+         * 方法一：
          * 快速排序
          * O(logn)
          * @param arr
