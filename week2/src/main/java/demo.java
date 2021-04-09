@@ -14,8 +14,17 @@ public class demo {
             return "OHHHHHHHHHHH";
         }
 
+
     }
 
+    static class MyException extends RuntimeException {
+        public MyException() {
+        }
+
+        public MyException(String message) {
+            super(message);
+        }
+    }
     public static void main(String[] args) {
         HashMap<Object, Object> map = new MyHashMap<>();
         map.put(1, "a");
@@ -27,5 +36,8 @@ public class demo {
         System.out.println(map.values());
         System.out.println(map.entrySet());
         System.out.println(map);
+
+        throw new MyException("my exception");
+
     }
 }
