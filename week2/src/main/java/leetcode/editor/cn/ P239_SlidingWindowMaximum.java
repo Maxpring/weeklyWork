@@ -66,6 +66,7 @@ package leetcode.editor.cn;
 //滑动窗口最大值
 
 import java.util.LinkedList;
+import java.util.PriorityQueue;
 
 class P239_SlidingWindowMaximum {
     public static void main(String[] args) {
@@ -73,24 +74,61 @@ class P239_SlidingWindowMaximum {
         Solution solution = new P239_SlidingWindowMaximum().new Solution();
     }
 
+    /**
+     * 方法一：
+     * 双端队列实现
+     */
+    public int[] maxSlidingWindow1(int[] nums, int k) {
+        if (nums == null || nums.length < 2) return nums;
+        LinkedList<Integer> queue = new LinkedList<>();
+        int[] result = new int[nums.length - k + 1];
+        for (int i = 0; i < nums.length; i++) {
+            while (!queue.isEmpty() && nums[queue.peekLast()] <= nums[i]) {
+                queue.pollLast();
+            }
+            queue.addLast(i);
+            if (queue.peek() <= i - k) {
+                queue.poll();
+            }
+            if (i + 1 >= k) {
+                result[i + 1 - k] = nums[queue.peek()];
+            }
+        }
+        return result;
+    }
+
     //力扣代码
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+        /**
+         * 方法二：
+         * PriorityQueue大顶堆实现
+         *
+         * @param nums
+         * @param k
+         * @return
+         */
         public int[] maxSlidingWindow(int[] nums, int k) {
-            if (nums == null || nums.length < 2) return nums;
-            LinkedList<Integer> queue = new LinkedList<>();
+            if (nums.length == 0 || k == 0) return new int[0];
+            //默认小根堆，修改Comparator成为大根堆
+            PriorityQueue<int[]> heap = new PriorityQueue<>((o1, o2) -> {
+                return (o2[0] - o1[0]);
+            });
+            int flag = 0;
             int[] result = new int[nums.length - k + 1];
-            for (int i = 0; i < nums.length; i++) {
-                while (!queue.isEmpty() && nums[queue.peekLast()] <= nums[i]) {
-                    queue.pollLast();
+
+            for (int i = 0; i < k; i++) {
+                heap.offer(new int[]{nums[i], i});
+            }
+            result[flag++] = heap.peek()[0];
+            for (int right = k; right < nums.length; right++) {
+                heap.offer(new int[]{nums[right], right});
+                //判断当前堆顶元素是否在当前的滑动窗口中
+                while(heap.peek()[1] < right - k + 1){
+
+                    heap.poll();
                 }
-                queue.addLast(i);
-                if (queue.peek() <= i - k) {
-                    queue.poll();
-                }
-                if (i + 1 >= k) {
-                    result[i + 1 - k] = nums[queue.peek()];
-                }
+                result[flag++] = heap.peek()[0];
             }
             return result;
         }
