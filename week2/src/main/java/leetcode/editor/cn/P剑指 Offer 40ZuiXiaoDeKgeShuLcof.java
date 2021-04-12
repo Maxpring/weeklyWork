@@ -41,6 +41,7 @@ class Offer40ZuiXiaoDeKgeShuLcof {
          * 方法一：
          * 快速排序
          * O(logn)
+         *
          * @param arr
          * @param k
          * @return
@@ -96,7 +97,6 @@ class Offer40ZuiXiaoDeKgeShuLcof {
             if (k == 0 || arr.length == 0) {
                 return new int[0];
             }
-
             Queue<Integer> pq = new PriorityQueue<>((v1, v2) -> (v2 - v1));
             for (int num : arr) {
                 if (pq.size() < k) {
@@ -112,6 +112,26 @@ class Offer40ZuiXiaoDeKgeShuLcof {
                 res[idx++] = num;
             }
             return res;
+        }
+
+        public int[] getLeastNumbers3(int[] arr, int k) {
+            if (k == 0) return new int[0];
+            int[] result = new int[k];
+            PriorityQueue<Integer> maxHeap = new PriorityQueue<>(((o1, o2) -> (o2 - o1)));
+            for (int i = 0; i < arr.length; i++) {
+                if (maxHeap.size() < k) {
+                    maxHeap.offer(arr[i]);
+                } else {
+                    if (maxHeap.peek() > arr[i]) {
+                        maxHeap.poll();
+                        maxHeap.offer(arr[i]);
+                    }
+                }
+            }
+            for (int i = 0; i < k; i++) {
+                result[i] = maxHeap.remove();
+            }
+            return result;
         }
     }
 //leetcode submit region end(Prohibit modification and deletion)

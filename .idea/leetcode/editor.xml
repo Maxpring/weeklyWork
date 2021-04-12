@@ -67,6 +67,30 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/week2/src/main/java/leetcode/editor/cn/ P1816_TruncateSentence.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week2/src/main/java/leetcode/editor/cn/ P1816_TruncateSentence.java" />
+              <option name="questionId" value="1944" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/week2/src/main/java/leetcode/editor/cn/ P1817_FindingTheUsersActiveMinutes.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week2/src/main/java/leetcode/editor/cn/ P1817_FindingTheUsersActiveMinutes.java" />
+              <option name="questionId" value="1945" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/week2/src/main/java/leetcode/editor/cn/ P1818_MinimumAbsoluteSumDifference.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week2/src/main/java/leetcode/editor/cn/ P1818_MinimumAbsoluteSumDifference.java" />
+              <option name="questionId" value="1946" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/week2/src/main/java/leetcode/editor/cn/ P1_TwoSum.java">
           <value>
             <LeetcodeEditor>
@@ -80,6 +104,14 @@
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/week2/src/main/java/leetcode/editor/cn/ P239_SlidingWindowMaximum.java" />
               <option name="questionId" value="239" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/week2/src/main/java/leetcode/editor/cn/ P242_ValidAnagram.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week2/src/main/java/leetcode/editor/cn/ P242_ValidAnagram.java" />
+              <option name="questionId" value="242" />
             </LeetcodeEditor>
           </value>
         </entry>
