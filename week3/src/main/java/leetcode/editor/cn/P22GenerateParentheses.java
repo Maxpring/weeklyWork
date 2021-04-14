@@ -29,19 +29,37 @@
 
 package leetcode.editor.cn;
 
+import java.util.ArrayList;
 import java.util.List;
 
 //Java：括号生成
-public class P22GenerateParentheses{
+public class P22GenerateParentheses {
     public static void main(String[] args) {
         Solution solution = new P22GenerateParentheses().new Solution();
         // TO TEST
     }
+
     //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public List<String> generateParenthesis(int n) {
+    class Solution {
+        public List<String> generateParenthesis(int n) {
+            List<String> list = new ArrayList<>();
+            if (n == 0) return list;
+            dfs("", n, n, list);
+            return list;
+        }
+
+        private void dfs(String s, int left, int right, List<String> list) {
+            //terminator
+            if (left == 0 && right == 0) {
+                list.add(s);
+                return;
+            }
+            if (left > right) return;
+            if (left > 0) dfs(s + "(", left - 1, right, list);
+            if (left < right) dfs(s + ")", left, right - 1, list);
+
+        }
     }
-}
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
