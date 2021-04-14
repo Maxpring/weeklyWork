@@ -67,6 +67,30 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/week2/src/main/java/leetcode/editor/cn/ P1816_TruncateSentence.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week2/src/main/java/leetcode/editor/cn/ P1816_TruncateSentence.java" />
+              <option name="questionId" value="1944" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/week2/src/main/java/leetcode/editor/cn/ P1817_FindingTheUsersActiveMinutes.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week2/src/main/java/leetcode/editor/cn/ P1817_FindingTheUsersActiveMinutes.java" />
+              <option name="questionId" value="1945" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/week2/src/main/java/leetcode/editor/cn/ P1818_MinimumAbsoluteSumDifference.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week2/src/main/java/leetcode/editor/cn/ P1818_MinimumAbsoluteSumDifference.java" />
+              <option name="questionId" value="1946" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/week2/src/main/java/leetcode/editor/cn/ P1_TwoSum.java">
           <value>
             <LeetcodeEditor>
@@ -83,11 +107,67 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/week2/src/main/java/leetcode/editor/cn/ P242_ValidAnagram.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week2/src/main/java/leetcode/editor/cn/ P242_ValidAnagram.java" />
+              <option name="questionId" value="242" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/week2/src/main/java/leetcode/editor/cn/ P347_TopKFrequentElements.java">
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/week2/src/main/java/leetcode/editor/cn/ P347_TopKFrequentElements.java" />
               <option name="questionId" value="347" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/week2/src/main/java/leetcode/editor/cn/ P70_ClimbingStairs.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week2/src/main/java/leetcode/editor/cn/ P70_ClimbingStairs.java" />
+              <option name="questionId" value="70" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/week3/src/main/java/leetcode/editor/cn/ P104_MaximumDepthOfBinaryTree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week3/src/main/java/leetcode/editor/cn/ P104_MaximumDepthOfBinaryTree.java" />
+              <option name="questionId" value="104" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/week3/src/main/java/leetcode/editor/cn/ P111_MinimumDepthOfBinaryTree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week3/src/main/java/leetcode/editor/cn/ P111_MinimumDepthOfBinaryTree.java" />
+              <option name="questionId" value="111" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/week3/src/main/java/leetcode/editor/cn/ P22_GenerateParentheses.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week3/src/main/java/leetcode/editor/cn/ P22_GenerateParentheses.java" />
+              <option name="questionId" value="22" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/week3/src/main/java/leetcode/editor/cn/ P70_ClimbingStairs.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week3/src/main/java/leetcode/editor/cn/ P70_ClimbingStairs.java" />
+              <option name="questionId" value="70" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/week3/src/main/java/leetcode/editor/cn/ P98_ValidateBinarySearchTree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week3/src/main/java/leetcode/editor/cn/ P98_ValidateBinarySearchTree.java" />
+              <option name="questionId" value="98" />
             </LeetcodeEditor>
           </value>
         </entry>

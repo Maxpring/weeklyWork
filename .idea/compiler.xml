@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="week1" />
         <module name="week2" />
+        <module name="week3" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="week1" target="7" />
       <module name="week2" target="8" />
+      <module name="week3" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
