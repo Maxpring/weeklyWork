@@ -131,11 +131,27 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/week3/src/main/java/leetcode/editor/cn/ P102_BinaryTreeLevelOrderTraversal.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week3/src/main/java/leetcode/editor/cn/ P102_BinaryTreeLevelOrderTraversal.java" />
+              <option name="questionId" value="102" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/week3/src/main/java/leetcode/editor/cn/ P104_MaximumDepthOfBinaryTree.java">
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/week3/src/main/java/leetcode/editor/cn/ P104_MaximumDepthOfBinaryTree.java" />
               <option name="questionId" value="104" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/week3/src/main/java/leetcode/editor/cn/ P105_ConstructBinaryTreeFromPreorderAndInorderTraversal.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week3/src/main/java/leetcode/editor/cn/ P105_ConstructBinaryTreeFromPreorderAndInorderTraversal.java" />
+              <option name="questionId" value="105" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -155,11 +171,35 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/week3/src/main/java/leetcode/editor/cn/ P236_LowestCommonAncestorOfABinaryTree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week3/src/main/java/leetcode/editor/cn/ P236_LowestCommonAncestorOfABinaryTree.java" />
+              <option name="questionId" value="236" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/week3/src/main/java/leetcode/editor/cn/ P297_SerializeAndDeserializeBinaryTree.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week3/src/main/java/leetcode/editor/cn/ P297_SerializeAndDeserializeBinaryTree.java" />
+              <option name="questionId" value="297" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/week3/src/main/java/leetcode/editor/cn/ P70_ClimbingStairs.java">
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/week3/src/main/java/leetcode/editor/cn/ P70_ClimbingStairs.java" />
               <option name="questionId" value="70" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/week3/src/main/java/leetcode/editor/cn/ P77_Combinations.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week3/src/main/java/leetcode/editor/cn/ P77_Combinations.java" />
+              <option name="questionId" value="77" />
             </LeetcodeEditor>
           </value>
         </entry>
