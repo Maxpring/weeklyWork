@@ -37,33 +37,39 @@ public class P22GenerateParentheses {
     public static void main(String[] args) {
         Solution solution = new P22GenerateParentheses().new Solution();
         // TO TEST
+        int a = 2;
+        testFunc(--a);
+    }
+
+    private static void testFunc(int a) {
+        System.out.println(a);
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
     class Solution {
+        /**
+         * 深度优先遍历（回溯法）
+         * @param n
+         * @return
+         */
         public List<String> generateParenthesis(int n) {
-            List<String> resultList = new ArrayList<>();
-            if (n == 0) return resultList;
-
-            dfs(n, n, "", resultList);
-            return resultList;
+            List<String> res = new ArrayList<>();
+            dfs("", n, n, res);
+            return res;
         }
 
-        private void dfs(int left, int right, String s, List<String> resultList) {
-            //terminator
+        private void dfs(String s, int left, int right, List<String> res) {
             if (left == 0 && right == 0) {
-                resultList.add(s);
+                res.add(s);
                 return;
             }
-            if (left > right) return;
+            if (left > 0) dfs(s + "(", left - 1, right, res);
 
-            if (left > 0) {
-                dfs(left - 1, right, s + "(", resultList);
-            }
-            if (right > 0) {
-                dfs(left, right - 1, s + ")", resultList);
-            }
+            if (right > left) dfs(s + ")", left, right - 1, res);
+
         }
+
+
     }
 //leetcode submit region end(Prohibit modification and deletion)
 
