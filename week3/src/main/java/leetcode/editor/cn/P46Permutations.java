@@ -18,6 +18,7 @@
 
 package leetcode.editor.cn;
 
+import java.util.ArrayList;
 import java.util.List;
 
 //Java：全排列
@@ -29,8 +30,8 @@ public class P46Permutations{
     //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public List<List<Integer>> permute(int[] nums) {
-
-
+        ArrayList<List<Integer>> list = new ArrayList<>();
+        return list;
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)
