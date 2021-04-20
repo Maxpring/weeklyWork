@@ -16,7 +16,7 @@
       <module name="week1" target="7" />
       <module name="week2" target="8" />
       <module name="week3" target="8" />
-      <module name="week4" target="1.5" />
+      <module name="week4" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
