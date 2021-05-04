@@ -10,6 +10,7 @@
         <module name="week2" />
         <module name="week3" />
         <module name="week4" />
+        <module name="week5" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -17,6 +18,7 @@
       <module name="week2" target="8" />
       <module name="week3" target="8" />
       <module name="week4" target="8" />
+      <module name="week5" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>
