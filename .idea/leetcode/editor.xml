@@ -219,11 +219,75 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/week4/src/main/java/leetcode/editor/cn/ P55_JumpGame.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week4/src/main/java/leetcode/editor/cn/ P55_JumpGame.java" />
+              <option name="questionId" value="55" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/week4/src/main/java/leetcode/editor/cn/ P62_UniquePaths.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week4/src/main/java/leetcode/editor/cn/ P62_UniquePaths.java" />
+              <option name="questionId" value="62" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/week4/src/main/java/leetcode/editor/cn/ P69_Sqrtx.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week4/src/main/java/leetcode/editor/cn/ P69_Sqrtx.java" />
+              <option name="questionId" value="69" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/week4/src/main/java/leetcode/editor/cn/ P78_Subsets.java">
           <value>
             <LeetcodeEditor>
               <option name="path" value="$PROJECT_DIR$/week4/src/main/java/leetcode/editor/cn/ P78_Subsets.java" />
               <option name="questionId" value="78" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/week4/src/main/java/leetcode/editor/cn/ P剑指 Offer 10- II_QingWaTiaoTaiJieWenTiLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week4/src/main/java/leetcode/editor/cn/ P剑指 Offer 10- II_QingWaTiaoTaiJieWenTiLcof.java" />
+              <option name="questionId" value="100277" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/week4/src/main/java/leetcode/editor/cn/ P剑指 Offer 10- I_FeiBoNaQiShuLieLcof.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week4/src/main/java/leetcode/editor/cn/ P剑指 Offer 10- I_FeiBoNaQiShuLieLcof.java" />
+              <option name="questionId" value="100274" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/week5/src/main/java/leetcode/editor/cn/ P1143_LongestCommonSubsequence.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week5/src/main/java/leetcode/editor/cn/ P1143_LongestCommonSubsequence.java" />
+              <option name="questionId" value="1250" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/week5/src/main/java/leetcode/editor/cn/ P62_UniquePaths.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week5/src/main/java/leetcode/editor/cn/ P62_UniquePaths.java" />
+              <option name="questionId" value="62" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/week5/src/main/java/leetcode/editor/cn/ P63_UniquePathsIi.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$PROJECT_DIR$/week5/src/main/java/leetcode/editor/cn/ P63_UniquePathsIi.java" />
+              <option name="questionId" value="63" />
             </LeetcodeEditor>
           </value>
         </entry>
