@@ -1,0 +1,56 @@
+    class Solution {
+        /**
+         * 方法一
+         *
+         * @param nums
+         * @return
+         */
+        public List<List<Integer>> subsets2(int[] nums) {
+            ArrayList<List<Integer>> result = new ArrayList<>();
+            if (nums == null) return result;
+            dfs(result, nums, new ArrayList<>(), 0);
+            return result;
+        }
+
+        private void dfs(ArrayList<List<Integer>> result, int[] nums, List<Integer> list, int index) {
+            //terminator
+            if (index == nums.length) {
+                result.add(new ArrayList<Integer>(list));
+                return;
+            }
+            dfs(result, nums, list, index + 1);//not pick the number at this index
+            list.add(nums[index]);
+            dfs(result, nums, list, index + 1);//pick the number at this index
+            list.remove(list.size() - 1);
+            //reverse the current state
+        }
+
+        /**
+         * 方法二
+         *
+         * @param nums
+         * @return
+         */
+        public List<List<Integer>> subsets(int[] nums) {
+            int length = nums.length;
+            List<List<Integer>> list = new ArrayList<>();
+            Deque<Integer> path = new ArrayDeque<>();
+            dfs2(list, nums, length, path, 0);
+            return list;
+        }
+
+        private void dfs2(List<List<Integer>> list, int[] nums, int length, Deque<Integer> path, int begin) {
+            list.add(new ArrayList<>(path));
+            if (length == begin) return;
+
+            for (int i = begin; i < length; i++) {
+                path.add(nums[i]);
+                dfs2(list, nums, length, path, i + 1);
+                path.removeLast();
+            }
+        }
+
+    }
+
+//runtime:2 ms
+//memory:38.7 MB
