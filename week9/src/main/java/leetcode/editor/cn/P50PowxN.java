@@ -38,18 +38,20 @@
 
 
 package leetcode.editor.cn;
+
 //Java：Pow(x, n)
-public class P50PowxN{
+public class P50PowxN {
     public static void main(String[] args) {
         Solution solution = new P50PowxN().new Solution();
         // TO TEST
     }
-    //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
-    public double myPow(double x, int n) {
 
+    //leetcode submit region begin(Prohibit modification and deletion)
+    class Solution {
+        public double myPow(double x, int n) {
+            return 0;
+        }
     }
-}
 //leetcode submit region end(Prohibit modification and deletion)
 
 }
