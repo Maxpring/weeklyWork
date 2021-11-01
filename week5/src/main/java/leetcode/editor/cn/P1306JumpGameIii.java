@@ -48,11 +48,25 @@
 
 package leetcode.editor.cn;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.LinkedList;
+import java.util.List;
+
 //Java：跳跃游戏 III
 public class P1306JumpGameIii {
     public static void main(String[] args) {
         Solution solution = new P1306JumpGameIii().new Solution();
         // TO TEST
+        char[] chars = new char[12];
+        ArrayList<Object> list = new ArrayList<>();
+        String[] strings1 = new String[12];
+        List<String> strings = Arrays.asList(strings1);
+        LinkedList<Object> objects = new LinkedList<>();
+        objects.addAll(list);
+
+
+
     }
 
     //leetcode submit region begin(Prohibit modification and deletion)
@@ -70,6 +84,7 @@ public class P1306JumpGameIii {
             int j = start - arr[start];
             return dfs(arr, i, step + 1) || dfs(arr, j, step + 1);
         }
+
     }
 //leetcode submit region end(Prohibit modification and deletion)
 
